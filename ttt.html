@@ -1,0 +1,1876 @@
+https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="no-js s-borderless-header   s-env-production p-artwork-show">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"64338d1b8c",applicationID:"62463744"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1158.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+  <meta name="format-detection" content="telephone=no">
+
+          <meta property="twitter:card" content="summary_large_image" />
+      <meta property="og:type" content="article" />
+       <title>A Sunday on La Grande Jatte — 1884 | The Art Institute of Chicago</title>
+<meta property="og:site_name"  content="The Art Institute of Chicago" />
+<meta property="og:title"      content="A Sunday on La Grande Jatte — 1884 | The Art Institute of Chicago" />
+<meta name="twitter:title"     content="A Sunday on La Grande Jatte — 1884 | The Art Institute of Chicago" />
+<meta itemprop="name"          content="A Sunday on La Grande Jatte — 1884 | The Art Institute of Chicago" />
+        <meta name="description"         content="Georges Seurat, 1884/86" />
+<meta property="og:description"  content="Georges Seurat, 1884/86" />
+<meta name="twitter:description" content="Georges Seurat, 1884/86" />
+<meta itemprop="description"     content="Georges Seurat, 1884/86" />
+        <link rel="canonical"    href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884" />
+<meta property="og:url"  content="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884" />
+<meta name="twitter:url" content="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884" />
+
+        <meta property="og:image"        content="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/1200,/0/default.jpg?w=1200&h=800&fit=crop" />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:image"       content="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/1200,/0/default.jpg?w=1200&h=800&fit=crop" />
+    <meta itemprop="image"           content="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/1200,/0/default.jpg?w=1200&h=800&fit=crop" />
+     
+  <link rel="search" type="application/opensearchdescription+xml" title="Art Institute of Chicago" href="/opensearch.xml">
+
+  <!-- Main Favicon -->
+  <link rel="shortcut icon" type="image/png" href="/dist/images/favicon-16.png">
+  <!-- Apple Touch Icons (ipad/iphone standard+retina) -->
+  <link rel="apple-touch-icon-precomposed" href="/dist/images/favicon-152.png"> <!-- General use iOS/Android icon, auto-downscaled by devices. -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/dist/images/favicon-120.png" sizes="120x120"> <!-- iPhone retina touch icon -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/dist/images/favicon-76.png" sizes="76x76"> <!-- iPad home screen icons -->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <meta name="csrf-token" content="PUILSZLxtszxo7FgkBnvmZHMDhUE3MgsHZkFaThw">
+
+  <script>!function(e){var t,s,i=window.A17||{},n=e.documentElement,l=window,a=e.getElementsByTagName("head")[0];function c(){if(/in/.test(e.readyState))setTimeout(c,9);else{var t=e.body,i=e.createElement("div");i.className="svg-sprite",i.innerHTML=s.responseText,t.insertBefore(i,t.childNodes[0])}}i.browserSpec=(e.querySelectorAll,"addEventListener"in l&&l.history.pushState&&e.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure","1.1")?"html5":"html4"),i.objectFit="objectFit"in n.style,window.A17=i,n.className=n.className.replace(/\bno-js\b/," js "+i.browserSpec+(i.objectFit?" objectFit":" no-objectFit")),"html4"===i.browserSpec?((t=e.createElement("link")).rel="stylesheet",t.title="html4css",t.href="/dist/styles/html4css.css",a.appendChild(t),(t=e.createElement("script")).src="//legacypicturefill.s3.amazonaws.com/legacypicturefill.min.js",a.appendChild(t),function t(){!e.readyState&&e.addEventListener&&(e.body?setTimeout(function(){e.readyState="complete"},500):setTimeout(t,9))}(),function t(){if(/in/.test(e.readyState))setTimeout(t,9);else for(var s=0;s<e.styleSheets.length;s++){var i=e.styleSheets[s];"html4css"!==i.title&&(i.disabled=!0)}}()):((t=e.createElement("script")).src="//cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js",a.appendChild(t),(s=new XMLHttpRequest).open("GET","/dist/icons/icons.svg",!0),s.send(),s.onload=function(e){s.status>=200&&s.status<400&&c()})}(document);</script>
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/612324/7579192/css/fonts.css" />
+  <style>
+  @import  url("//hello.myfonts.net/count/3545d5");
+  @font-face {font-family: 'Sabon';src: url(/dist/fonts/3545D5_0_0.eot);src: url(/dist/fonts/3545D5_0_0.eot?#iefix) format('embedded-opentype'),url(/dist/fonts/3545D5_0_0.woff2) format('woff2'),url(/dist/fonts/3545D5_0_0.woff) format('woff'),url(/dist/fonts/3545D5_0_0.ttf) format('truetype');font-weight:normal;font-weight:400;font-style:normal;}
+  @font-face {font-family: 'Sabon';src: url(/dist/fonts/3545D5_1_0.eot);src: url(/dist/fonts/3545D5_1_0.eot?#iefix) format('embedded-opentype'),url(/dist/fonts/3545D5_1_0.woff2) format('woff2'),url(/dist/fonts/3545D5_1_0.woff) format('woff'),url(/dist/fonts/3545D5_1_0.ttf) format('truetype');font-weight:normal;font-weight:400;font-style:italic;}
+  @font-face {font-family: 'Sabon';src: url(/dist/fonts/3545D5_2_0.eot);src: url(/dist/fonts/3545D5_2_0.eot?#iefix) format('embedded-opentype'),url(/dist/fonts/3545D5_2_0.woff2) format('woff2'),url(/dist/fonts/3545D5_2_0.woff) format('woff'),url(/dist/fonts/3545D5_2_0.ttf) format('truetype');font-weight:normal;font-weight:500;font-style:normal;}
+  </style>
+  <link rel="stylesheet" href="https://vjs.zencdn.net/7.1.0/video-js.css" />
+  <meta name="msvalidate.01" content="1E22F0BBEF5CF0D71FF4C150D094A1CA" />
+        <link href="/dist/styles/app-9aa2b22c89.css" rel="stylesheet" />
+              <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MQBCFS');</script>
+        <!-- End Google Tag Manager -->
+        </head>
+
+<body>
+            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQBCFS"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+<div id="a17">
+
+  <header class="g-header">
+  <div class="g-header__inner">
+      <a href="#content" class="skip-nav f-body">Skip to Content</a>
+      <nav aria-label="primary">
+                <a class="g-header__logo" aria-label="Art Institute of Chicago" href="/">
+          <svg aria-hidden="true">
+            <use xlink:href="#icon--logo--outline--80" />
+            <use xlink:href="#icon--logo--outline--88" />
+            <use xlink:href="#icon--logo--outline--92" />
+          </svg>
+        </a>
+                <div class="g-header__nav-primary">
+          <h2 class="sr-only" id="h-nav-primary-header">Primary Navigation</h2>
+          <ul class="f-main-nav" aria-labelledby="h-nav-primary-header">
+            <li class='u-hide@small+'>
+              <a href="https://sales.artic.edu/admissions" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="buy-tickets">Buy Tickets</a>
+            </li>
+            <li>
+              <a href="https://www.artic.edu/visit" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="visit">Visit</a>
+            </li>
+            <li class="u-show@small+">
+              <a href="https://www.artic.edu/exhibitions" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="exhibitions-and-events">Exhibitions &amp; Events</a>
+            </li>
+            <li class="u-show@small+ s-current">
+              <a href="https://www.artic.edu/collection" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="collection">The Collection</a>
+            </li>
+            <li class="u-show@small+"><button data-behavior="globalSearchOpen" aria-label="Search site"><svg class="icon--search--24" aria-hidden="true"><use xlink:href="#icon--search--24" /></svg></button></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="g-header__nav-secondary" aria-label="secondary">
+        <h2 class="sr-only" id="h-nav-secondary-header">Secondary Navigation</h2>
+        <ul class="f-secondary" aria-labelledby="h-nav-secondary-header">
+          <li><a href="https://sales.artic.edu/admissions" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="buy-tickets">Buy Tickets</a></li>
+          <li><a href="https://sales.artic.edu/memberships" data-gtm-event-category="top-nav" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="become-a-member">Become a Member</a></li>
+          <li><a href="https://shop.artic.edu/" target="_blank" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="top-nav" data-gtm-event="shop">Shop</a></li>
+        </ul>
+      </nav>
+      <p class="g-header__opening-hours f-secondary"><a href="/visit">Open 10:30–5:00 | Wed, Thurs, Fri until 8:00</a></p>
+      <button class="g-header__menu-link f-secondary" data-behavior="openNavMobile" aria-label="Show menu">Menu<svg class="icon--menu--24" aria-hidden="true"><use xlink:href="#icon--menu--24" /></svg></button>
+  </div>
+  </header>
+
+  <main id="content">
+    
+<article class="o-article" data-behavior="addHistory" data-add-url="https://www.artic.edu/artworks/addRecentlyViewed/27992/a-sunday-on-la-grande-jatte-1884" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <meta itemprop="accessMode" content="visual"/><meta itemprop="about" content="weather/seasons, leisure, water, circles, men, women, urban life, landscapes, Chicago World's Fairs, animals, Century of Progress, world's fairs, children"/><meta itemprop="provider" content="European Painting and Sculpture"/><meta itemprop="thumbnailUrl" content="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/,150/0/default.jpg"/><meta itemprop="image" content="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731"/>
+
+  
+  <h1 class="sr-only">A Sunday on La Grande Jatte — 1884</h1>
+
+  <header class="m-article-header m-article-header--gallery " data-behavior="headerGallery">
+<div class="m-article-header__img">
+      <div class="m-article-header__img-container" data-gallery-hero>
+                  <img
+    alt="Large painting of people in a crowded park, brushstrokes are dots"
+    class="  "
+            src="data:image/gif;base64,R0lGODlhCAAFAPUAAKWloY+SanyHamxyYmVpVlhgUFNVTFBNS5ean5yhopqXjZKKf42Fd46Ib19bWmtlY5mUjp6QepWMb6Scd4+EcYR9ZVJQXHNuZZmUcHpyZ3BqY11iSVxoVF1oVVBPYFFQT2VmZldXVlBUSz9LP1ReU05XSElKRkhLPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUynIAA7"
+                srcset="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/843,/0/default.jpg 843w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/1686,/0/default.jpg 1686w"
+        sizes="(min-width: 1640px) 843px, (min-width: 1200px) 843px, (min-width: 900px) 843px, (min-width: 600px) 90.63vw,  90.63vw"
+    width="3000"
+    height="1999"
+        data-iiifId="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731"
+                data-pin-media="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/600,/0/default.jpg"
+             data-gallery-fullscreen
+             
+>
+      </div>
+            <a href="/image-licensing" class="m-article-header__img-credit f-caption" aria-label="credit" data-gallery-credit>
+            CC0 Public Domain Designation
+        </a>
+          <h2 class="sr-only" id="h-image-actions">Image actions</h2>
+      <ul class="m-article-header__img-actions" aria-labelledby="h-image-actions">
+                <li>
+            <button class="btn  btn--septenary btn--icon-sq" data-gallery-fullscreen aria-label="Open image full screen">
+    <svg class="icon--zoom--24" aria-hidden="true"><use xlink:href="#icon--zoom--24" /></svg>    
+</button>
+        </li>
+                 
+                <li>
+            <button class="btn  btn--septenary btn--icon-sq" data-gallery-download aria-label="Download image">
+    <svg class="icon--download--24" aria-hidden="true"><use xlink:href="#icon--download--24" /></svg>    
+</button>
+        </li>
+                <li>
+          <button class="btn  btn--septenary btn--icon-sq" data-behavior="sharePage" data-gallery-share aria-label="Share page">
+    <svg class="icon--share--24" aria-hidden="true"><use xlink:href="#icon--share--24" /></svg>    
+</button>
+        </li>
+      </ul>
+  </div>
+  <ul class="m-article-header__img-thumbs s-single-img" data-behavior="dragScroll" data-gallery-thumbs>
+              <li>
+                    <button
+                            data-gallery-img-src="data:image/gif;base64,R0lGODlhCAAFAPUAAKWloY+SanyHamxyYmVpVlhgUFNVTFBNS5ean5yhopqXjZKKf42Fd46Ib19bWmtlY5mUjp6QepWMb6Scd4+EcYR9ZVJQXHNuZZmUcHpyZ3BqY11iSVxoVF1oVVBPYFFQT2VmZldXVlBUSz9LP1ReU05XSElKRkhLPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUynIAA7"
+                                        data-gallery-img-srcset="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/843,/0/default.jpg 843w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/1686,/0/default.jpg 1686w"
+                                        data-gallery-img-width="3000"
+                                        data-gallery-img-height="1999"
+                                        data-gallery-img-credit="CC0 Public Domain Designation"
+                                        data-gallery-img-credit-url="/image-licensing"
+                                        data-gallery-img-share-url="#"
+                                                    data-gallery-img-download-url="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/!3000,3000/0/default.jpg"
+                                        data-gallery-img-download-name="1926.224 - A Sunday on La Grande Jatte — 1884.jpg"
+                                        data-gallery-img-iiifId="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731"
+                        data-gtm-event="" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="in-page"
+            aria-label="show alternative image"
+            disabled
+          >Show this image</button>
+          <img
+    alt="Large painting of people in a crowded park, brushstrokes are dots"
+    class="  "
+            src="data:image/gif;base64,R0lGODlhCAAFAPUAAKWloY+SanyHamxyYmVpVlhgUFNVTFBNS5ean5yhopqXjZKKf42Fd46Ib19bWmtlY5mUjp6QepWMb6Scd4+EcYR9ZVJQXHNuZZmUcHpyZ3BqY11iSVxoVF1oVVBPYFFQT2VmZldXVlBUSz9LP1ReU05XSElKRkhLPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUynIAA7"
+                srcset="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/300,/0/default.jpg 300w, https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/600,/0/default.jpg 600w"
+        sizes="300px"
+    width="3000"
+    height="1999"
+        data-iiifId="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731"
+                data-pin-media="https://www.artic.edu/iiif/2/88d65792-afb3-c90b-56d7-6f95967fa731/full/600,/0/default.jpg"
+                 
+>
+        </li>
+        </ul>
+
+</header>
+
+
+  <div class="o-article__primary-actions o-article__primary-actions--inline-header u-show@large+" aria-label="Additional information">
+    
+    <h2 class="title f-module-title-1 u-show@large+" aria-hidden="true">On View</h2>
+
+            <ul class="list list--inline f-secondary">
+                            <li><a href="https://www.artic.edu/departments/PC-10/european-painting-and-sculpture" data-gtm-event="European Painting and Sculpture" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="collection-nav">European Painting and Sculpture</a></li>
+                                        <li><a href="https://www.artic.edu/galleries/2147478672/gallery-240" data-gtm-event="Gallery 240"  data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="collection-nav">Gallery 240</a></li>
+                    </ul>
+      </div>
+
+  <div class="o-article__secondary-actions o-article__secondary-actions--inline-header u-show@medium+">
+    <aside class="m-inline-aside u-show@medium+">
+    <span class="hr"></span>
+
+            <h4 class="f-module-title-1">Related Content</h4>
+        <span class="m-listing m-listing--selection">
+    <a href="https://www.artic.edu/highlights/3/what-to-see-in-an-hour" class="m-listing__link" data-gtm-event="related-sidebar" data-gtm-event-category="collection-nav">
+        <span class="m-listing__img m-listing__img--no-bg m-listing__img--square">
+                            <img
+    alt="Im032134 001 Web"
+    class="  "
+            src="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=format&amp;fm=jpg&amp;q=1&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=25&amp;h=25&amp;blur=30&amp;sat=20"
+                data-srcset="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=200&amp;h=200 200w, https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=400&amp;h=400 400w, https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=600&amp;h=600 600w, "
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 35.94vw,  90.63vw"
+    width="7498"
+    height="7498"
+                data-pin-media="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=600&amp;h=600"
+                 
+>
+                        <span class="m-listing__img__overlay">
+                <svg class="icon--slideshow--24">
+                    <use xlink:href="#icon--slideshow--24"></use>
+                </svg>
+            </span>
+        </span>
+        <span class="m-listing__meta">
+            <em class="type f-tag">Highlights</em>
+            <br>
+            <strong class="title f-list-1">What to See in an Hour</strong>
+        </span>
+    </a>
+</span>
+</aside>
+  </div>
+
+  <div class="o-article__inline-header">
+          <span class="title f-headline-editorial o-article__inline-header-title" aria-hidden="true">A Sunday on La Grande Jatte — 1884</span>
+    
+          <h2 class="sr-only">Date:</h2>
+      <p class="title f-secondary o-article__inline-header-display">1884/86</p>
+    
+          <h2 class="sr-only">Artist:</h2>
+      <p class="title f-secondary o-article__inline-header-display">Georges Seurat<br/>French, 1859-1891</p>
+      </div>
+
+  
+        <div class="o-article__related">
+          <aside class="m-inline-aside">
+    <span class="hr"></span>
+
+            <h4 class="f-module-title-1">Related Content</h4>
+        <span class="m-listing m-listing--selection">
+    <a href="https://www.artic.edu/highlights/3/what-to-see-in-an-hour" class="m-listing__link" data-gtm-event="related-sidebar" data-gtm-event-category="collection-nav">
+        <span class="m-listing__img m-listing__img--no-bg m-listing__img--square">
+                            <img
+    alt="Im032134 001 Web"
+    class="  "
+            src="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=format&amp;fm=jpg&amp;q=1&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=25&amp;h=25&amp;blur=30&amp;sat=20"
+                data-srcset="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=200&amp;h=200 200w, https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=400&amp;h=400 400w, https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=600&amp;h=600 600w, "
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 35.94vw,  90.63vw"
+    width="7498"
+    height="7498"
+                data-pin-media="https://artic-web.imgix.net/e19debf8-5fd3-49ef-b197-e15877524396/IM032134_001-web.jpg?rect=1%2C391%2C7498%2C4218&amp;auto=compress&amp;fm=jpg&amp;q=80&amp;fit=crop&amp;crop=faces%2Cedges%2Centropy&amp;w=600&amp;h=600"
+                 
+>
+                        <span class="m-listing__img__overlay">
+                <svg class="icon--slideshow--24">
+                    <use xlink:href="#icon--slideshow--24"></use>
+                </svg>
+            </span>
+        </span>
+        <span class="m-listing__meta">
+            <em class="type f-tag">Highlights</em>
+            <br>
+            <strong class="title f-list-1">What to See in an Hour</strong>
+        </span>
+    </a>
+</span>
+</aside>
+      </div>
+  
+  <div class="o-article__body o-blocks">
+
+    <h2 class="sr-only">About this artwork</h2>
+
+    <div class='o-blocks' itemprop="description">
+                    <p>“Bedlam,” “scandal,” and “hilarity” were among the epithets used to describe what is now considered Georges Seurat’s greatest work, and one of the most remarkable paintings of the nineteenth century, when it was first exhibited in Paris. Seurat labored extensively over <em>A Sunday on La Grande Jatte—1884</em>, reworking the original as well as completing numerous preliminary drawings and oil sketches (the Art Institute has one such sketch and two drawings). With what resembles scientific precision, the artist tackled the issues of color, light, and form. Inspired by research in optical and color theory, he juxtaposed tiny dabs of colors that, through optical blending, form a single and, he believed, more brilliantly luminous hue. To make the experience of the painting even more intense, he surrounded the canvas with a frame of painted dashes and dots, which he, in turn, enclosed with a pure white wood frame, similar to the one with which the painting is exhibited today. The very immobility of the figures and the shadows they cast makes them forever silent and enigmatic. Like all great master-pieces, <em>La Grande Jatte</em> continues to fascinate and elude.</p>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                        </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                            <dl class="deflist o-blocks__block u-hide@large+ sr-show@large+" aria-owns="dl-artwork-details">
+                                    <dt>
+                        <h2 class="f-module-title-1">On View</h2>
+                    </dt>
+                                            <dd>
+                            <span class="f-secondary"><a href="https://www.artic.edu/departments/PC-10/european-painting-and-sculpture" data-gtm-event="European Painting and Sculpture" data-gtm-event-category="collection-nav">European Painting and Sculpture</a>, <a href="https://www.artic.edu/galleries/2147478672/gallery-240" data-gtm-event="Gallery 240" data-gtm-event-category="collection-nav">Gallery 240</a></span>
+                        </dd>
+                                                    </dl>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                            <dl class="deflist o-blocks__block " id="dl-artwork-details">
+                                    <dt>
+                        <h2 class="f-module-title-1">Artist</h2>
+                    </dt>
+                                            <dd itemprop="creator">
+                            <span class="f-secondary">
+                                                                                                            <a href="https://www.artic.edu/artists/40810/georges-seurat" data-gtm-event="Georges Seurat" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="collection-nav">Georges Seurat</a>
+                                                                                                                                    </span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Title</h2>
+                    </dt>
+                                            <dd itemprop="name">
+                            <span class="f-secondary">A Sunday on La Grande Jatte — 1884</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Origin</h2>
+                    </dt>
+                                            <dd itemprop="locationCreated">
+                            <span class="f-secondary">France</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Date</h2>
+                    </dt>
+                                            <dd itemprop="dateCreated">
+                            <span class="f-secondary">
+                                                                                                            <a href="https://www.artic.edu/collection?date-start=1884&date-end=1886"> 1884–1886</a>
+                                                                                                                                    </span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Medium</h2>
+                    </dt>
+                                            <dd itemprop="material">
+                            <span class="f-secondary">Oil on canvas</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Inscriptions</h2>
+                    </dt>
+                                            <dd>
+                            <span class="f-secondary">Inscribed at lower right: Seurat</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Dimensions</h2>
+                    </dt>
+                                            <dd>
+                            <span class="f-secondary">207.5 × 308.1 cm (81 3/4 × 121 1/4 in.)</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Credit Line</h2>
+                    </dt>
+                                            <dd>
+                            <span class="f-secondary">Helen Birch Bartlett Memorial Collection</span>
+                        </dd>
+                                                        <dt>
+                        <h2 class="f-module-title-1">Reference Number</h2>
+                    </dt>
+                                            <dd>
+                            <span class="f-secondary">1926.224</span>
+                        </dd>
+                                                    </dl>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            <h2 class="sr-only">Extended information about this artwork</h2>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+            
+            
+            
+            
+                            <div class="o-accordion o-blocks__block " data-behavior="accordion">
+        <h3><button id="publication-history" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="publication-history">
+        Publication History
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_publication-history" class="o-accordion__panel" aria-labelledby="publication-history" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <ul><li>Jules Christophe, Georges Seurat (Paris, 1890).</li><li>Gustave Kahn, “Seurat,” L’Art Moderne 11 (April 5, 1891), pp. 107-10.</li><li>Henry van de Velde, “Georges Seurat,” La Wallonie 6 (March/April 1891), pp. 167-71.</li><li>Emile Verhaeren, “Mort de Georges Seurat,” La Nation (April 1, 1891).</li><li>Emile Verhaeren, “Georges Seurat,” La Société nouvelle (April 30, 1891), pp. 430-38.</li><li>Téodor de Wyzewa, “Georges Seurat,” L’Art dans les Deux Mondes 22 (April 18, 1891), pp. 263-64.</li><li>Jules Christophe, “Seurat,” La Plume (September 1, 1891).</li><li>Paul Signac, D’Eugène Delacroix au néo-impressionnisme (Paris, 1899).</li><li>Emile Verhaeren, “Georges Seurat,” L’Art Moderne 15, 13 (April 1, 1900), p. 104.</li><li>Thadée Natanson, “Un Primitif d’aujourd’hui: Georges Seurat,” La Revue Blanche 21 (April 1900), pp. 610-14.</li><li>Emile Verhaeren, “Notes: Georges Seurat,” La Nouvelle Revue Française 1 (February 1, 1909), p. 92.</li><li>Roger Fry, “The Post-Impressionsists,” in Manet and the Post-Impressionists, exh. cat. (Grafton Galleries, London, 1910-11), pp. 8-9.</li><li>Lucie Cousturier, “Georges Seurat,” L’Art Décoratif 27 (20 June 1912), pp. 357-72.</li><li>Elie Faure, Les Constructeurs (Paris, 1914).</li><li>Félix Féneon, “Georges Seurat,” Bulletin de la Vie Artistique 7 (14 May 1914); reprinted in Félix Fénéon, Oeuvres plus que complètes, ed. Joan Halperin (Geneva, 1970), pp. 293-94.</li><li>Roger Bissière, “Notes sur l’art de Seurat,” L’Esprit Nouveau 1 (Oct. 1920), pp. 13-28.</li><li>André Salmon, “Georges Seurat,” The Burlington Magazine 37 (September 1920), pp. 115-22.</li><li>Roger Fry, “Retrospect” in Vision and Design (London, 1920), pp. 188-199.</li><li>Lucie Cousturier, Seurat (Paris, 1921), p. 17, pl. 11.</li><li>J. Carré.  “Le Grand Art. Georges Seurat,” La Vie (September 1, 1922).</li><li>André Salmon, Propos d’atelier (Paris, 1922).</li><li>André Lhote, Georges Seurat (Rome, 1922), pl. 4.</li><li>André Lhote, “Seurat” in Parlons peinture, 1922; reprinted in Ecrits sur la peinture (Brussels, 1946).</li><li>Walter Pach, “Georges Seurat (1853-1891),” The Arts 3 (March 1923), pp. 160-74.</li><li>Walter Pach, Georges Seurat (New York, 1923), pl. 6.</li><li>Gustave Coquiot, Seurat (Paris, 1924), pp. 214-19, ill. opp. p. 216, 247.</li><li>Félix Fénéon, “Précisions concernant Seurat,” Bulletin de la Vie Artistique (15 August 1924); reprinted in Félix Fénéon, Oeuvres plus que complètes, ed. Joan Halperin (Geneva, 1970), pp. 467-68.</li><li>Exhibition of Paintings and Drawings by Georges Seurat, foreward by Walter Pach (New York, Brummer Galleries, 1924).</li><li>Guy Eglinton, “The Theory of Seurat,” International Studio 81 (May 1925), pp. 113-17.</li><li>Félix Fénéon, “Georges Seurat und die oeffentliche Meinung,” Der Querschnitt 6 (October 1926), pp. 767-70.    </li><li>Roger Fry, “Georges Seurat,” The Dial 1926, reprinted in R. Fry, Transformations, Critical and Speculative Essays on Art, 1926, pp. 188-96 and Sir Anthony Blunt, Seurat (1965), pp. 9-22.</li><li>Amédée Ozenfant, “Seurat,” Cahiers d’Art 7 (September 1926), p. 172.</li><li>Florent Fels, “La Peinture française aux XIXe et Xxe siècles, Seurat,” A.B.C. Magazine d’Art (1927), pp. 282-87.</li><li>André Lhote, “Expositions Seurat et Roger de la Fresnaye,” (1927); reprinted in La Peinture, Le Coeur et l’Esprit (Paris, 1933).</li><li>Claude Roger-Marx, “Georges Seurat,” Gazette des Beaux-Arts (December 1927), pp. 311-18.</li><li>Christian Zervos, “Un Dimanche à la Grande Jatte et la technique de Seurat,” Cahiers d’Art 9 (1928), pp. 361-75.</li><li>Alfred Barr, The Museum of Modern Art First Loan Exhibition New York November 1929; Cézanne, Gauguin, Seurat, Van Gogh, exh. cat. (Museum of Modern Art, New York 1929), pp. 23-27.</li><li>Robert Rey, “Seurat,” in La Peinture française à la fin du XIXe siècle, La Renaissance du Sentiment Classique, Degas, Renoir, Gauguin, Cézanne, Seurat (Paris, 1931), pp. 95-134.</li><li>B.E. Werner, “Georges Seurat,” Die Kunst 65 (February 1932), pp. 147-52.</li><li>F. Walter, “Du Paysage Classique au surréalisme:  Seurat,” Revue de l’Art Ancien et Moderne 63 (April 1933), pp. 165-76.</li><li>P. Signac, “Les étapes de la peinture contemporaine:  Georges Seurat,” Beaux-Arts (December 15, 1933), p. 1.</li><li>Lévy-Gutmann, “Seurat et ses amis,” Art et Décoration 63 (Jan. 1934), pp. 36-37.</li><li>Paul Signac, “Le néo-impressionisme,” Gazette des Beaux-Arts 11 (January 1934), pp. 49-59.</li><li>Daniel Catton Rich, Seurat and the Evolution of “La Grande Jatte” (Chicago, 1935).</li><li>Meyer Schapiro, “Seurat and “La Grande Jatte”,&#8221; The Columbia Review 17 (November 1935), pp. 9-16.</li><li>A. Watt, “Art of Georges Seurat,” Apollo 23 (March 1936), pp. 168-69.</li><li>J. Hélion, “Seurat as a predecessor,” The Burlington Magazine 69 (July 1936), pp. 4-14.</li><li>Paul Signac, “The Neo-Impressionist Movement,” in Seurat and his Contemporaries, exh. cat. (London, Wildenstein, 1937).</li><li>Georges Duthuit, “Seurat’s System,” The Listener 17, 421 (February 3, 1937), pp. 210-11.</li><li>D. Goldring, “London Art News:  Seurat and His Contemporaries,” London Studio 13 (April 1937), p. 219.</li><li>“Seurat,” Apollo 32 (July 1940), pp. 11-12.</li><li>R. J. Goldwater, “Some Aspects of the Development of Seurat’s Style,” Art Bulletin 23 (June 1941), pp. 117-30.</li><li>Lionello Venturi, “The Art of Seurat,” Gazette des Beaux-Arts (July-Dec. 1944), pp. 421-30.</li><li>John Rewald, Georges Seurat (New York, 1946).</li><li>Georges Duthuit, “Georges Seurat, Voyant et physicien,” Labyrinthe [Geneva] (December 1946).</li><li>Germain Seligman, The Drawings of Georges Seurat (New York, 1947).</li><li>André Lhote, Seurat (Paris, 1948).</li><li>André Lhote, “Le classicisme de Seurat; excerpts,” Arts (June 18, 1948), p. 2.</li><li>Thadée Natanson, “L’Ecole de Seurat,” in Peints à leur tour (Paris, 1948), pp. 121-29.</li><li>John Rewald, “Seurat:  the meaning of the dots,” Art News 48 (April 1949), pp. 24-27, 61-63.</li><li>Umbro Apollonio, “Disegni di Georges Seurat,” in XXV Biennale di Venezia, Catalogo (Venice, 1950), pp. 175-79.</li><li>“Sunday at the Grande Jatte,” Life 31 (July 23, 1951), pp. 60-64.</li><li>“Pointillism with Paint and Camera,” Design 53 (March 1952), p. 141.</li><li>John Rewald, “Seurat and His Friends,” in Seurat and His Friends, exh. cat. (New York, Wildenstein, 1953).</li><li>Terence Mullaly, “Pointillists,” Apollo 63 (June 1956), pp. 185-89.</li><li>D.C. Rich, ed., Seurat Paintings and Drawings, exh. cat. (Chicago, 1958).</li><li>D. C. Rich, “Place of Seurat,” Art Institute Quarterly 52 (February 1958), pp. 1-5.</li><li>L. Katz, “Seurat: Allegory and Image,” Arts 32 (April 1958), pp. 40-47.</li><li>Meyer Schapiro, “New Light on Seurat,” Art News 57 (April 1958), pp. 22-24, 44-45, 52.</li><li>J. O. Kerr, “Seurat:  the Silent Post-Impressionist,” Studio 155 (May 1958), pp. 129-33.</li><li>Robert L. Herbert, “Seurat in Chicago and New York,” The Burlington Magazine 100 (May 1958), pp. 146-155.</li><li>Robert L. Herbert, “Seurat and Jules Chéret,” Art Bulletin 40 (June 1958), pp. 156-58.</li><li>William I. Homer, “Seurat’s formative period:  1880-1884,” Connoisseur 142 (September 1958), pp. 58-62.</li><li>Henri Dorra and John Rewald, Seurat (Paris, 1959), no. 139 (ill.).</li><li>Robert L. Herbert, “Seurat and Puvis de Chavannes,” Yale University Art Gallery Bulletin 25 (October 1959), pp. 22-29.</li><li>Robert L. Herbert, “Seurat and Emile Verhaeren: Unpublished Letters,” Gazette des Beaux-Arts 54 (December 1959), pp. 315-28.</li><li>César M. De Hauke, Seurat et son oeuvre 2 vol. (Paris, 1961), no. 162.</li><li>John Russell, Seurat (London, 1965).</li><li>John House, &#8220;Meaning in Seurat&#8217;s Figure Painting,&#8221;Art History 3, 3 (September 1980), pp. 345-56.</li><li>Richard Thomson, “ ‘Les Quat’ Pattes’: The Image of the Dog in Late Nineteenth-Century French Art,” Art History 5 (September 1982), pp. 331-37.</li><li>Jeroen Stumpel, &#8220;The Grande Jatte, that patient tapestry,&#8221; Simiolus 14 (1984), pp. 209-24.</li><li>Richard Thomson, Seurat (Oxford, 1985), pp. 97-126.</li><li>Richard R. Brettell, “The Bartletts and the ‘Grande Jatte:’ Collecting Modern Painting in the 1920s,” Art Institute of Chicago Museum Studies 12, 2 (1986), pp. 103-113 (ill.).</li><li>Alan Lee, “Seurat and Science,” Art History 10 (June 1987), pp. 203-26.</li><li>S. Hollis Clayson, “The Family and the Father:  The Grande Jatte and its Absences,”</li><li>The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 155-72.</li><li>Stephen F. Eisenman, “Seeing Seurat Politically,” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 211-21.</li><li>Mary Mathews Gedo, “The Grande Jatte as the Icon of a New Religion:  A Psycho-Iconographic Interpretation,” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 223-37.</li><li>John House, “Reading the Grande Jatte, ” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 115-31.</li><li>Linda Nochlin, “Seurat’s Grande Jatte:  An Anti-Utopian Allegory,” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 133-53.</li><li>Richard Thomson, “The Grande Jatte: Notes on Drawing and Meaning,” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 181-97.</li><li>Michael Zimmerman, “Seurat, Charles Blanc, and Naturalist Art Criticism,” The Art Institute of Chicago Museum Studies 14, 2 (1989), pp. 199-209.</li><li>Jean Claude Lebensztejn, Chahut (Paris, 1989).</li><li>Natasha Staller, “Babel: Hermetic Languages, Universal Languages, and Anti-Languages in fin de siècle Parisian Culture,” Art Bulletin 76 (June 1994), pp. 331-54.</li><li>Fritz Novotny, Painting and Sculpture in Europe, 1780-1880 (New Haven, 1995), p. 370.</li><li>Paul Smith, Seurat and the Avant-Garde (New Haven, 1997).</li><li>Suzanne Folds McCullagh, “‘A Lasting Monument’: The Regenstein Collection at the Art Institute of Chicago,” Art Institute of Chicago Museum Studies 26, 1 (2000), p. 13.</li><li>Jane Block, Le Néo-Imoressionnisme de Seurat á Paul Klee, Exh. cat. (Réunion des Musées Nationaux, 2005), ill.14-15, p. 16-21, p. 27-29,  p. 32, p. 64, p. 74, p. 76, p. 85, p. 97, p. 108, p. 112, p. 122.  </li><li>Martha Tedeschi, “Study of Trees, 1884,” Art Institute of Chicago Museum Studies 26, 1 (2000), pp. 82-83, cat. 36, fig. 29.</li><li>Richard Shiff, Jodi Hauptman, Hubert Damisch, and Richard Thomson, “Seurat Distracted,” “Medium and Miasma: Seurat’s Drawings on the Margins of Paris,” “Polka Dots and Moonbeams,” and “The Imperatives of Style: Seurat’s Drawings,” George Seurat: The Drawings, Exh. cat. (The Museum of Modern Art, New York, 2007), p.18, p. 110, ill. 111, p. 122, p. 123, p. 171.  </li><li>Basel, Switzerland, Kunstmuseum Basel, Vincent van Gogh- Between Earth and Heaven: The Landscapes, 2009, Fig. 45, p. 82, p. 86.</li><li>Mary Mathews Gedo, Monet and His Muse: Camille Monet in the Artists Life, Chicago: The University of Chicago Press, 2010. p. 39, p. 58, p. 164.  </li><li>Richard R. Brettell, Pissarro’s People. New York: Fine Arts Museum of San Francisco, 2011. p. 202, p. 208, p. 217, fig. 154. </li><li>Homburg, Cornelia. 2010. “Imagining City and Country.” In Vincent Van Gogh: Timeless Country – Modern City. Exh. cat., pp. 29-30. Skira.</li><li>Jean-Michel Nectoux, “Je veux Écrire mon Songe Musical…,” Debussy: La Musique et les Arts. Exh. cat. (Musée d’Orsay, 2012), p. 26. </li><li>Jennifer A. Thompson, “Van Gogh and Close-up Techniques in 19th-century French Painting,” Van Gogh: Up Close. Exh. cat. (Yale UP, 2012), p. 69. </li><li>Joseph J. Rishel, “Arcadia 1900,” Gauguin, Cézanne, Matisse: Visions of Arcadia Exh. cat (Philadelphia Museum of Art, 2012),  p. 7, p. 48, p. 50, fig. 49.  </li><li>Gavin Parkinson, &#8220;Method and Poetry: Georges Seurat&#8217;s Surrealist Dialectic,&#8221; The Art Bulletin 99, no. 3 (Sept. 2017), pp. 126–27, 131–33, 145n70, 145n72, fig. 5, fig. 6 (detail).</li></ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+        <h3><button id="exhibition-history" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="exhibition-history">
+        Exhibition History
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_exhibition-history" class="o-accordion__panel" aria-labelledby="exhibition-history" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <ul><li>Paris, Maison Dorée, 1, rue Laffitte, VIIIème Exposition de peinture, May 15–June 15, 1886, cat. 175.</li><li>Paris, Rue des Tuileries, IIème Exposition de la Société des Artistes Indépendants, August 21–September 21, 1886, cat. 353.</li><li>Brussels, Musée de l’Art Modern, IVe exposition annuelle de XX, February, 1887, cat. 1.</li><li>Paris, Pavillon de la Ville de Paris, VIIIème Exposition de la Société des Artistes Indépendants, March 19–April 27, 1892, cat. 1082.</li><li>Paris, 23 Boulevard des Italiens, Exposition de La Revue Blanche, Georges Seurat: Oeuvres peintes et dessinées, March 19–April 5, 1900, cat. 17.</li><li>Paris, Grandes Serres de la Ville de Paris (serre “B” de la Champs de la Reine, Aval-Alma), 21me Exposition de la Société des Artistes Indépendants.  Éxposition Rétrospective Georges Seurat (1859-1891), 1905, cat. 18.</li><li>Paris, Galeries Bernheim-Jeune et Cie, Georges Seurat (1859-1891), December 14, 1908–January 9, 1909, cat. 58.</li><li>Paris, Galeries Bernheim-Jeune, Exposition Georges Seurat, January 15–31, 1920, cat. 23.</li><li>Minneapolis Institute of Arts, Exhibition of Modern French Paintings from the Birch-Bartlett Collection, April–September, 1925, checklist no. 9.</li><li>Boston Art Club, Birch-Bartlett Collection of Modern French Paintings, December 9-16, 1925, checklist no. 26.</li><li>The Art Institute of Chicago, A Century of Progress Exhibition of Paintings and Sculpture, June 1–November 1, 1933, cat. 370.</li><li>The Art Institute of Chicago, A Century of Progress Exhibition of Paintings and Sculpture, June 1–November 1, 1934, cat. 324.</li><li>The Art Institute of Chicago, Art of the United Nations, November 16, 1944–January 1, 1945, no cat. no.</li><li>The Art Institute of Chicago, Seurat: Paintings and Drawings, January 16–March 7, 1958, cat. 101, traveled to New York, The Museum of Modern Art, Seurat: Paintings and Drawings, March 24–May 11, 1958. </li><li>The Art Institute of Chicago, The Art of the Edge: European Frames 1300-1900, October 17–December 14, 1986, not included in the catalogue.</li><li>The Art Institute of Chicago, Chicago’s Dream, A World’s Treasure: The Art Institute of Chicago 1893-1993, November 1–January 9, 1994, no cat. no, pl. 21.</li><li>The Art Institute of Chicago, Seurat and the Making of La Grande Jatte, June 16–September 19, 2004, cat. 80.</li></ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+        <h3><button id="provenance" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="provenance">
+        Provenance
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_provenance" class="o-accordion__panel" aria-labelledby="provenance" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <p>By descent to Mme. Seurat, the artist’s mother (died 1899), Paris, 1891; by descent to Emile Seurat, the artist’s brother; sold for 800 francs to Casimir Brû, Paris, 1900; given by him to his daughter, Lucie, Paris, 1900; Lucie Brû Cousturier and Edmond Cousturier, Paris; sold for $20,000 possibly through Charles Vildrac, Paris to Frederic Clay and Helen Birch Bartlett, Chicago, 1924; given to the Art Institute, 1926.</p>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+        <h3><button id="catalogues-raisonnes" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="catalogue-raisonnes">
+        Catalogues Raisonnés
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_catalogues-raisonnes" class="o-accordion__panel" aria-labelledby="catalogues-raisonnes" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <p>de Hauke 162 </p>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+        <h3><button id="multimedia" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="multimedia">
+        Multimedia
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_multimedia" class="o-accordion__panel" aria-labelledby="multimedia" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <ul class="m-link-list o-blocks__block">
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="http://archive.artic.edu/cc/" data-subtype="sites">
+                                <span class="m-link-list__label">Curious Corner</span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--new-window"><use xlink:href="#icon--new-window" /></svg>                            </a>
+                                    </li>
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="http://archive.artic.edu/seurat/" data-subtype="sites">
+                                <span class="m-link-list__label">Seurat and the Making of &#8220;La Grande Jatte&#8221;</span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--new-window"><use xlink:href="#icon--new-window" /></svg>                            </a>
+                                    </li>
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="http://archive.artic.edu/impressionism/" data-subtype="sites">
+                                <span class="m-link-list__label">Art Access: Impressionist and Post-Impressionist Art</span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--new-window"><use xlink:href="#icon--new-window" /></svg>                            </a>
+                                    </li>
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="https://www.artic.edu/assets/9b8a30b6-640d-fc0b-9535-2c3dbdf3da26" data-behavior="triggerMediaModal" data-subtype="sounds">
+                                <span class="m-link-list__label">Audio Lecture: Science Chicago—A Technical Study of <em>A Sunday on La Grande Jatte</em></span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--audio"><use xlink:href="#icon--audio" /></svg>                <textarea style="display: none;"><li class="m-listing m-listing--inline m-listing--sound">
+    <div class="m-listing__link">
+        <div class="m-listing__meta">
+            Audio Lecture: Science Chicago—A Technical Study of <em>A Sunday on La Grande Jatte</em>
+        </div>
+        <div>
+            <audio
+                class="video-js vjs-fluid m-vjs-audio"
+                
+                controls
+            >
+                <source src="https://www.artic.edu/assets/9b8a30b6-640d-fc0b-9535-2c3dbdf3da26" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+                    </div>
+</li>
+</textarea>            </a>
+                                    </li>
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="https://www.artic.edu/assets/e608826a-c7c7-6dfc-904f-442ff093c2b9" data-behavior="triggerMediaModal" data-subtype="sounds">
+                                <span class="m-link-list__label">Audio stop 781.mp3</span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--audio"><use xlink:href="#icon--audio" /></svg>                <textarea style="display: none;"><li class="m-listing m-listing--inline m-listing--sound">
+    <div class="m-listing__link">
+        <div class="m-listing__meta">
+            Audio stop 781.mp3
+        </div>
+        <div>
+            <audio
+                class="video-js vjs-fluid m-vjs-audio"
+                
+                controls
+            >
+                <source src="https://www.artic.edu/assets/e608826a-c7c7-6dfc-904f-442ff093c2b9" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+                    </div>
+</li>
+</textarea>            </a>
+                                    </li>
+    </ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+        <h3><button id="educational-resources" class="o-accordion__trigger f-module-title-2" tabindex="0" data-gtm-event="artwork-open-drawer" data-gtm-event-category="in-page" data-gtm-drawer="educational-resources">
+        Educational Resources
+        <span class="o-accordion__trigger-icon">
+            <svg class="icon--plus"><use xlink:href="#icon--plus" /></svg>
+            <svg class="icon--minus"><use xlink:href="#icon--minus" /></svg>
+        </span>
+    </button></h3>
+    <div id="panel_educational-resources" class="o-accordion__panel" aria-labelledby="educational-resources" aria-hidden="true">
+        <div class="o-accordion__panel-content o-blocks">
+            <ul class="m-link-list o-blocks__block">
+        <li class="m-link-list__item">
+                                <a class="m-link-list__trigger f-secondary" href="https://www.artic.edu/assets/9b8a30b6-640d-fc0b-9535-2c3dbdf3da26" data-behavior="triggerMediaModal" data-subtype="sounds">
+                                <span class="m-link-list__label">Audio Lecture: Science Chicago—A Technical Study of <em>A Sunday on La Grande Jatte</em></span>
+                <svg aria-hidden="true" class="m-link-list__icon-after icon--audio"><use xlink:href="#icon--audio" /></svg>                <textarea style="display: none;"><li class="m-listing m-listing--inline m-listing--sound">
+    <div class="m-listing__link">
+        <div class="m-listing__meta">
+            Audio Lecture: Science Chicago—A Technical Study of <em>A Sunday on La Grande Jatte</em>
+        </div>
+        <div>
+            <audio
+                class="video-js vjs-fluid m-vjs-audio"
+                
+                controls
+            >
+                <source src="https://www.artic.edu/assets/9b8a30b6-640d-fc0b-9535-2c3dbdf3da26" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+                    </div>
+</li>
+</textarea>            </a>
+                                    </li>
+    </ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                </div>
+    </div>
+    </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+            
+            
+            
+                            <span class="hr"></span>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                
+                                            <p class="f-caption">Object information is a work in progress and may be updated as new research findings emerge. To help improve this record, please email <a data-behavior="maskEmail" data-maskEmail-user="collections" data-maskEmail-domain="artic.edu"></a>. Information about image downloads and licensing is <a href="/image-licensing">available here</a>.</p>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+    <div>
+<h2 class="sr-only" id="h-article-actions">Share</h2>
+<ul class="m-article-actions m-article-actions--keyline-top" aria-labelledby="h-article-actions">
+        <li class="m-article-actions__action">
+        <button class="btn  btn--icon" data-behavior="sharePage" aria-label="Share page">
+    <svg class="icon--share--24" aria-hidden="true"><use xlink:href="#icon--share--24" /></svg>    
+</button>
+    </li>
+                <li class="m-article-actions__action u-hide@small-">
+        <button class="btn  btn--quaternary btn--icon" data-behavior="printPage" aria-label="Print page">
+    <svg class="icon--print--24" aria-hidden="true"><use xlink:href="#icon--print--24" /></svg>    
+</button>
+    </li>
+    </ul>
+</div>
+  </div>
+
+</article>
+
+<div id="exploreFurther">
+    <div class="m-title-bar ">
+  <h2 class="title f-module-title-2" id="h-explore-further">Explore Further</h2>
+  </div>
+
+    <nav class="m-links-bar" data-behavior="linksBar">
+    <ul class="m-links-bar__items-primary" aria-labelledby="h-explore-further" data-links-bar-primary>
+                    
+                
+                
+
+                
+                                    <li class="m-links-bar__item s-active">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-most-similar_ids=most-similar" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        Most Similar
+                    </a>
+                </li>
+                                
+                
+                
+
+                
+                                    <li class="m-links-bar__item  ">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-style_ids=Impressionism" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        Impressionism
+                    </a>
+                </li>
+                                
+                
+                
+
+                
+                                    <li class="m-links-bar__item  ">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-classification_ids=oil+on+canvas" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        Oil on canvas
+                    </a>
+                </li>
+                                
+                
+                
+
+                
+                                    <li class="m-links-bar__item  ">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-artist_ids=Georges+Seurat" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        Georges Seurat
+                    </a>
+                </li>
+                                
+                
+                
+
+                
+                                    <li class="m-links-bar__item  ">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-date_ids=1884" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        1800–1900
+                    </a>
+                </li>
+                                
+                
+                
+
+                
+                                    <li class="m-links-bar__item  ">
+                                    <a class="m-links-bar__item-trigger f-link" href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-all_ids=1" data-ajax-tab-target="exploreFurther" aria-controls="explore-further-pinboard" aria-pressed="false">
+                        All Tags
+                    </a>
+                </li>
+                    
+        <li class="m-links-bar__item m-links-bar__item--push m-links-bar__item--overflow" data-links-bar-primary-overflow="">
+          <div aria-label="More links" class="dropdown dropdown--filter dropdown--tabs f-link" data-behavior="dropdown" tabindex="0">
+            <button class="dropdown__trigger  f-link">More<svg class="icon--arrow"><use xlink:href="#icon--arrow"></use></svg></button>
+              <h4 class="sr-only" id="h-links-bar-more">More options</h4>
+              <ul class="dropdown__list f-secondary" aria-labelledby="h-links-bar-more" data-dropdown-list>
+                                                                                        <li class="s-active">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-most-similar_ids=most-similar" data-ajax-tab-target="exploreFurther">
+                                Most Similar
+                            </a>
+                        </li>
+                                                                                                            <li class=" ">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-style_ids=Impressionism" data-ajax-tab-target="exploreFurther">
+                                Impressionism
+                            </a>
+                        </li>
+                                                                                                            <li class=" ">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-classification_ids=oil+on+canvas" data-ajax-tab-target="exploreFurther">
+                                Oil on canvas
+                            </a>
+                        </li>
+                                                                                                            <li class=" ">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-artist_ids=Georges+Seurat" data-ajax-tab-target="exploreFurther">
+                                Georges Seurat
+                            </a>
+                        </li>
+                                                                                                            <li class=" ">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-date_ids=1884" data-ajax-tab-target="exploreFurther">
+                                1800–1900
+                            </a>
+                        </li>
+                                                                                                            <li class=" ">
+                                                    <a href="https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884?ef-all_ids=1" data-ajax-tab-target="exploreFurther">
+                                All Tags
+                            </a>
+                        </li>
+                                                </ul>
+          </div>
+        </li>
+    </ul>
+</nav>
+
+            <h3 class="sr-only" id="h-artworks-related-to-tag">Artworks related to tag</h3>
+  <ul id="explore-further-pinboard" class="o-pinboard o-pinboard--2-col@small o-pinboard--3-col@medium o-pinboard--4-col@large o-pinboard--4-col@xlarge" data-behavior="pinboard" data-pinboard-maintain-order="false" aria-labelledby="h-artworks-related-to-tag">
+    <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/58984/landscape-along-the-seine-with-the-institut-de-france-and-the-pont-des-arts" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAD1YSVduYIiUe4OTeYiahniNg2l8YLS6ndHPucjJssbGraewmnyMc6Wvl5uolaCtlZOhioqahXaDcX+Ke3+MfoyWhXF/a2R1a5WcfZqgg5SdhaWrk5Kch4uYigAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/f0f1a477-e834-1eb3-e110-9a5dcb74a741/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/f0f1a477-e834-1eb3-e110-9a5dcb74a741/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/f0f1a477-e834-1eb3-e110-9a5dcb74a741/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2606"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/f0f1a477-e834-1eb3-e110-9a5dcb74a741"
+                data-pin-media="https://www.artic.edu/iiif/2/f0f1a477-e834-1eb3-e110-9a5dcb74a741/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Landscape along the Seine with the Institut de France and the Pont des Arts, c. 1875</strong>
+            <br>
+            <span class="subtitle f-secondary">Alfred Sisley</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/75507/still-life-corner-of-a-table" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBwAFAPUAADItJiwsKDM2MCwuJywvKSouKS0wLCUjHigpIzg5M0JDOzY4MldVSFZVRi8wKo2PhqWnoKuuoYGCcnRxaJSPgF9hWszQx8HIwpyemHx8c1VWSnBtZnZ2bcTIvrW7soyVjGJmXGRlWV9iWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSBQEADs="
+                data-srcset="https://www.artic.edu/iiif/2/cb814895-31e3-6fbf-ea10-0ebaa60b3678/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/cb814895-31e3-6fbf-ea10-0ebaa60b3678/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/cb814895-31e3-6fbf-ea10-0ebaa60b3678/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2940"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/cb814895-31e3-6fbf-ea10-0ebaa60b3678"
+                data-pin-media="https://www.artic.edu/iiif/2/cb814895-31e3-6fbf-ea10-0ebaa60b3678/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Still Life: Corner of a Table, 1873</strong>
+            <br>
+            <span class="subtitle f-secondary">Henri Fantin-Latour</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/64818/stacks-of-wheat-end-of-summer" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="Colorful pastel painting of two wheat stacks casting long shadows across field."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhCAAFAPUAALbFvLjIv8DLxMHJwMHNwMfQus7TvM3Pvq+to6mqn62xoLOzm66tk7Gujbewis2/mnKAgHh2dH53aXSEeG90ZIxxaItwZpOEZZeZi5aNgqSQfp+elJOXkZKHg498cJiDbaKajZ6jmJWqnpSlnY2jpKOoo7OooLGhkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUynIAA7"
+                data-srcset="https://www.artic.edu/iiif/2/9511bf7d-4f6c-f523-5fb1-ff069c17f16c/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/9511bf7d-4f6c-f523-5fb1-ff069c17f16c/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/9511bf7d-4f6c-f523-5fb1-ff069c17f16c/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="3000"
+    height="1778"
+        data-iiifId="https://www.artic.edu/iiif/2/9511bf7d-4f6c-f523-5fb1-ff069c17f16c"
+                data-pin-media="https://www.artic.edu/iiif/2/9511bf7d-4f6c-f523-5fb1-ff069c17f16c/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Stacks of Wheat (End of Summer), 1890/91</strong>
+            <br>
+            <span class="subtitle f-secondary">Claude Monet</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/72180/still-life-with-flowers" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAJiKcZyTeZuReqGTfqeZgpWHbpmMdI6Jd4p8ZKKUeJmLeKWUfIh0X1BGP4uCaZx0W3tlVZyKb3heSXBHPl5WSlg/PIRvXaCIbk5ANjgmKiskJFhAPWtTTWFXSQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/25cfae51-d0f6-e8a4-4ec4-98177a119996/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/25cfae51-d0f6-e8a4-4ec4-98177a119996/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/25cfae51-d0f6-e8a4-4ec4-98177a119996/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2801"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/25cfae51-d0f6-e8a4-4ec4-98177a119996"
+                data-pin-media="https://www.artic.edu/iiif/2/25cfae51-d0f6-e8a4-4ec4-98177a119996/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Still Life with Flowers, 1881</strong>
+            <br>
+            <span class="subtitle f-secondary">Henri Fantin-Latour</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/73054/the-loire" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAKajkrG0pr/GuM/VxrC3rK+3rKKdj7q7sLa6sp+jm4eFdYaDcYuGeaqtpZ6jnl5eUWZjUnJtWHdqW6WimaOfkId9WoN7Vn94VnpnRpyJcZaGbJ6MdKCOc52JZQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/e35df709-f500-3494-2864-3487fd4b7c18/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/e35df709-f500-3494-2864-3487fd4b7c18/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/e35df709-f500-3494-2864-3487fd4b7c18/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2696"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/e35df709-f500-3494-2864-3487fd4b7c18"
+                data-pin-media="https://www.artic.edu/iiif/2/e35df709-f500-3494-2864-3487fd4b7c18/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">The Loire, 1896</strong>
+            <br>
+            <span class="subtitle f-secondary">Alfred Sisley</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/81533/the-races-at-longchamp" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhCgAFAPUAAK2pmLy2pMHDtcXGt7O6r7i+sJ+xsaOnmaGlmpmflICMdX6SgJOgip+ljau0nHmDdG55an6FcXmAbXWAbEQ7KVxWRUVHO2JjS2FuSxwpHSQ5KENbPShAKk5PL0Y/NVJIOk5FOlJOQ0s/LVM+Jl1XPE9XOzY2Jz00JDg6OF5VR01SRTdSQzVAMEREMkVOOTFLOyo6LCYyJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUwnVEq1YrVcL1gsCAA7"
+                data-srcset="https://www.artic.edu/iiif/2/a126d739-15ea-6e2d-af2e-8d9622472dc7/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/a126d739-15ea-6e2d-af2e-8d9622472dc7/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/a126d739-15ea-6e2d-af2e-8d9622472dc7/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="3000"
+    height="1561"
+        data-iiifId="https://www.artic.edu/iiif/2/a126d739-15ea-6e2d-af2e-8d9622472dc7"
+                data-pin-media="https://www.artic.edu/iiif/2/a126d739-15ea-6e2d-af2e-8d9622472dc7/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">The Races at Longchamp, 1866</strong>
+            <br>
+            <span class="subtitle f-secondary">Édouard Manet</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/81545/stacks-of-wheat-sunset-snow-effect" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhCAAFAPUAAIuEkoiCkY9+hLJ/ZMJ7WMqIWtCPWM6RXIKHnYCGnoODmoV9kZmEkqGFkZqFkZWFkoeKoXp7inhwdmxtgniAnIGKo4CKpHyIpJGKpW9thl9XX2NZZGVjeJaQr5eNqIuJopCNsZOPtXeCqXF6nH2Eq56ZuqOUsKCPpQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSDQilUynIAA7"
+                data-srcset="https://www.artic.edu/iiif/2/775af3c6-22dc-4dd7-6eb1-ac9ee27999e3/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/775af3c6-22dc-4dd7-6eb1-ac9ee27999e3/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/775af3c6-22dc-4dd7-6eb1-ac9ee27999e3/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="3000"
+    height="1929"
+        data-iiifId="https://www.artic.edu/iiif/2/775af3c6-22dc-4dd7-6eb1-ac9ee27999e3"
+                data-pin-media="https://www.artic.edu/iiif/2/775af3c6-22dc-4dd7-6eb1-ac9ee27999e3/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Stacks of Wheat (Sunset, Snow Effect), 1890/91</strong>
+            <br>
+            <span class="subtitle f-secondary">Claude Monet</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/44017/landscape-at-chailly" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAFmNtV2Ps3eYrYmgsKGoo36ToY+utoKwwounrHuEgUVKQkJLQ3Z/Z2d7bDZJRy82NCgsKC40KU9OOUpKNURBMjk9Lz1AODg4NWdaPFlTPWplSlVVOlRQQ1xTQAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/b6c6d3e9-0f76-7b0c-de5c-6487ebdc3c89/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/b6c6d3e9-0f76-7b0c-de5c-6487ebdc3c89/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/b6c6d3e9-0f76-7b0c-de5c-6487ebdc3c89/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2808"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/b6c6d3e9-0f76-7b0c-de5c-6487ebdc3c89"
+                data-pin-media="https://www.artic.edu/iiif/2/b6c6d3e9-0f76-7b0c-de5c-6487ebdc3c89/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Landscape at Chailly, 1865</strong>
+            <br>
+            <span class="subtitle f-secondary">Frédéric Bazille</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/53058/foret-de-compiegne" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAFluQmZ6TYCOYpCfd2yEXXeGXXF+UYuRYJegbqWwhY6bbYqVZ42QYZeZZoqVZJikfaKlbaumb4yUZZKcXpycYpOWZaChb6WicnuCTYuXW5ScZZOXYpKaZI6WYAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/21454281-8ad4-5678-4fe1-b1d51618b2cf/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/21454281-8ad4-5678-4fe1-b1d51618b2cf/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/21454281-8ad4-5678-4fe1-b1d51618b2cf/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2708"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/21454281-8ad4-5678-4fe1-b1d51618b2cf"
+                data-pin-media="https://www.artic.edu/iiif/2/21454281-8ad4-5678-4fe1-b1d51618b2cf/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Forêt de Compiègne, 1885</strong>
+            <br>
+            <span class="subtitle f-secondary">Berthe Morisot</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/37741/watering-place-at-marly" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBwAFAPUAAKi8vrDAvrXBvK2+vqK6vIqwvKi9ubPDw6/EyKjAxpe4w6q/v6/CwsDKwGh5bnKFfJGlp6KztKK2uYOYko2dl4KIdHyHdYaMeouQgJ6fjoOLe3F8ZpuSbbOlhruvlbqwn66mla+ijpGGaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQEBAMCAUDAdEQrFgNBwPSEQyoVQsF0xGs+F0PB9QSBQEADs="
+                data-srcset="https://www.artic.edu/iiif/2/5eeb1312-8b9a-52b4-2e29-555946014ed4/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/5eeb1312-8b9a-52b4-2e29-555946014ed4/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/5eeb1312-8b9a-52b4-2e29-555946014ed4/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="3000"
+    height="2092"
+        data-iiifId="https://www.artic.edu/iiif/2/5eeb1312-8b9a-52b4-2e29-555946014ed4"
+                data-pin-media="https://www.artic.edu/iiif/2/5eeb1312-8b9a-52b4-2e29-555946014ed4/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Watering Place at Marly, 1875</strong>
+            <br>
+            <span class="subtitle f-secondary">Alfred Sisley</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/33212/the-arcueil-aqueduct-at-sceaux-railroad-crossing" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAJeigo+Wbpukh6KrkqCojJ2mioKKaFxsOoOQbIaLcYeIbISFaW9xSWFpOXB7TnB8WGRxT19tSGloQ1RgM15pOmpzRlVjOUleNVFaLUtjMFFrMltsN29vQnJwPwAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/98efa18c-d162-1824-3b65-40f6df69b45a/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/98efa18c-d162-1824-3b65-40f6df69b45a/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/98efa18c-d162-1824-3b65-40f6df69b45a/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2912"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/98efa18c-d162-1824-3b65-40f6df69b45a"
+                data-pin-media="https://www.artic.edu/iiif/2/98efa18c-d162-1824-3b65-40f6df69b45a/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">The Arcueil Aqueduct at Sceaux Railroad Crossing, 1874</strong>
+            <br>
+            <span class="subtitle f-secondary">Jean Baptiste Armand Guillaumin</span>
+        </span>
+    </a>
+</li>
+                            <li class="m-listing m-listing--variable-height o-pinboard__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <a href="https://www.artic.edu/artworks/25812/bullfight" class="m-listing__link" itemprop="url">
+        <span class="m-listing__img m-listing__img--no-bg">
+                            <img
+    alt="A work made of oil on canvas."
+    class="  "
+            src="data:image/gif;base64,R0lGODlhBgAFAPQAAGdzd3x/enl+g3d/i3uEk2l2jHNhUYVyX456ZpSCa5OBbY58aFJEPIBxY35tXXdnVn5sW4lzWm5ZSF1KOn9oUpJ4XZB2W4duVYVwVHhZPHhaQqmPaJmBXIVxUQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIBAIA1EYB5IoC9M4DxRJE1VZF5ZpG9eFADs="
+                data-srcset="https://www.artic.edu/iiif/2/d01c7dd1-3a20-baf2-bf58-7a6c9f2c56e7/full/200,/0/default.jpg 200w, https://www.artic.edu/iiif/2/d01c7dd1-3a20-baf2-bf58-7a6c9f2c56e7/full/400,/0/default.jpg 400w, https://www.artic.edu/iiif/2/d01c7dd1-3a20-baf2-bf58-7a6c9f2c56e7/full/600,/0/default.jpg 600w"
+        sizes="(min-width: 1640px) 336px, (min-width: 1200px) 20.31vw, (min-width: 900px) 28.13vw, (min-width: 600px) 43.75vw,  90.63vw"
+    width="2816"
+    height="2250"
+        data-iiifId="https://www.artic.edu/iiif/2/d01c7dd1-3a20-baf2-bf58-7a6c9f2c56e7"
+                data-pin-media="https://www.artic.edu/iiif/2/d01c7dd1-3a20-baf2-bf58-7a6c9f2c56e7/full/600,/0/default.jpg"
+                 
+>
+                                    </span>
+        <span class="m-listing__meta">
+                        <strong class="title f-list-1">Bullfight, 1865/66</strong>
+            <br>
+            <span class="subtitle f-secondary">Édouard Manet</span>
+        </span>
+    </a>
+</li>
+</ul>
+    
+    
+    </div>
+
+
+<div class="o-injected-container" data-behavior="injectContent" data-injectContent-url="https://www.artic.edu/artworks/recentlyViewed" data-user-artwork-history></div>
+
+    <form class="m-aside-newsletter m-aside-newsletter--wide" action="/subscribe" data-behavior="newsletter" novalidate>
+    <fieldset>
+        <legend><h2 class="title f-list-3">Sign up for our enewsletter to receive updates.</h2></legend>
+        <div class="m-aside-newsletter__field__wrapper">
+            <span class="m-aside-newsletter__field">
+                <label for="email4" class="f-secondary">Email address</label>
+                <input type="hidden" name="_token" value="PUILSZLxtszxo7FgkBnvmZHMDhUE3MgsHZkFaThw">
+                <input type="email" name="email" id="email4" class="f-secondary" placeholder="">
+                <button type="submit" class="f-buttons m-aside-newsletter__btn--submit" data-gtm-event-category="subscribe" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="email">Subscribe</button>
+            </span>
+
+            
+            
+            <div class="m-aside-newsletter__btn--list__wrapper">
+                <button type="button" class="f-buttons m-aside-newsletter__btn--list">
+                    See all newsletters
+                    <svg class="icon--arrow">
+                        <use xlink:href="#icon--arrow"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="m-aside-newsletter__list-wrapper" aria-hidden="true">
+                <div class="m-aside-newsletter__list">
+                    
+                    <div class="m-aside-newsletter__list__left">
+                        <ol class="m-fieldset__fields">
+                          <li class="m-fieldset__field o-blocks m-fieldset__field--group">
+                                                        <span class="checkbox s-disabled">
+  <input type="checkbox" value="OptEnews" id="subscriptions-OptEnews" name="subscriptions[0]" checked disabled>
+  <span class="f-secondary">
+      <label for="subscriptions-OptEnews" class="label  ">
+    News and Exhibitions
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptHumanResources" id="subscriptions-OptHumanResources" name="subscriptions[1]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptHumanResources" class="label  ">
+    Career Opportunities
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptEveningAssociates" id="subscriptions-OptEveningAssociates" name="subscriptions[2]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptEveningAssociates" class="label  ">
+    Young Professionals
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptFamilyPrograms" id="subscriptions-OptFamilyPrograms" name="subscriptions[3]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptFamilyPrograms" class="label  ">
+    Families
+            </label>
+  </span>
+  </span>
+                                                                                  </li>
+                        </ol>
+                    </div>
+                    <div class="m-aside-newsletter__list__right">
+                        <ol class="m-fieldset__fields">
+                          <li class="m-fieldset__field o-blocks m-fieldset__field--group">
+                                                        <span class="checkbox">
+  <input type="checkbox" value="OptEvents" id="subscriptions-OptEvents" name="subscriptions[4]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptEvents" class="label  ">
+    Public Programs
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptStudentTeacherPrograms" id="subscriptions-OptStudentTeacherPrograms" name="subscriptions[5]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptStudentTeacherPrograms" class="label  ">
+    Students and Teachers
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptTeenPrograms" id="subscriptions-OptTeenPrograms" name="subscriptions[6]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptTeenPrograms" class="label  ">
+    Teens
+            </label>
+  </span>
+  </span>
+                                                                                      <span class="checkbox">
+  <input type="checkbox" value="OptAcademicEngagement" id="subscriptions-OptAcademicEngagement" name="subscriptions[7]"  >
+  <span class="f-secondary">
+      <label for="subscriptions-OptAcademicEngagement" class="label  ">
+    Academic Engagement and Research
+            </label>
+  </span>
+  </span>
+                                                                                  </li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+
+            
+                    </div>
+                
+    </fieldset>
+</form>
+  </main>
+
+  <footer id="footer" class="g-footer">
+  <a href="#a17" class="g-footer__top-link arrow-link arrow-link--up f-small-caps">
+    Back to top
+    <span>
+      <svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg>
+    </span>
+  </a>
+
+  <div class="g-footer__inner">
+    <h2 class="sr-only" id="h-footer-grid">Footer content</h2>
+    <ul class="g-footer__grid" aria-labelledby="h-footer-grid">
+      <li>
+        <nav aria-label="primary">
+          <h3 class="sr-only" id="h-footer-nav-primary">Primary Navigation</h3>
+
+          <a class="g-footer__logo" aria-label="Art Institute of Chicago" href="/">
+            <svg aria-hidden="true">
+              <use xlink:href="#icon--logo--outline--92" />
+            </svg>
+          </a>
+
+          <ul class="g-footer__link-list" aria-labelledby="h-footer-nav-primary">
+            <li><a href="https://www.artic.edu/visit">Visit</a></li>
+            <li><a href="https://www.artic.edu/exhibitions">Exhibitions and Events</a></li>
+            <li><a href="https://www.artic.edu/collection">The Collection</a></li>
+          </ul>
+        </nav>
+      </li>
+
+      <li class="u-hide@small-">
+        <a href="https://www.google.com/maps/place/The+Art+Institute+of+Chicago/@41.8795845,-87.625902,17z/data=!3m1!5s0x880e2ca148f260e3:0xd473c3802aaff420!4m5!3m4!1s0x880e2ca3e2d94695:0x4829f3cc9ca2d0de!8m2!3d41.8795847!4d-87.623713" target="_blank" aria-label="Directions to the Art Institute of Chicago">
+          <svg aria-hidden="true" class="icon--footer_map_120x92"><use xlink:href="#icon--footer_map_120x92" /></svg>
+        </a>
+
+        <h3 class="sr-only" id="h-footer-nav-locations">Locations</h3>
+        <ul class="g-footer__link-list g-footer__link-list--spaced" aria-labelledby="h-footer-nav-locations">
+          <li>
+
+            <h4>Michigan Avenue Entrance</h4>
+            <a href="https://www.google.com/maps/place/The+Art+Institute+of+Chicago/@41.8795845,-87.625902,17z/data=!3m1!5s0x880e2ca148f260e3:0xd473c3802aaff420!4m5!3m4!1s0x880e2ca3e2d94695:0x4829f3cc9ca2d0de!8m2!3d41.8795847!4d-87.623713" target="_blank">111 South Michigan Avenue <br>Chicago, IL 60603</a>
+          </li>
+
+          <li>
+            <h4>Modern Wing Entrance</h4>
+            <a href="https://www.google.com/maps/place/Modern+Wing+Entrance/@41.8797032,-87.6244036,17z/data=!3m1!5s0x880e2ca148f260e3:0xd473c3802aaff420!4m12!1m6!3m5!1s0x880e2ca3e2d94695:0x4829f3cc9ca2d0de!2sThe+Art+Institute+of+Chicago!8m2!3d41.8795847!4d-87.623713!3m4!1s0x880e2ca6cf1a0e41:0xa97b8d9d0c91fa6e!8m2!3d41.880725!4d-87.621932" target="_blank">159 East Monroe Street <br>Chicago, IL 60603</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="u-hide@small-">
+        <div class="g-footer__grid__group">
+          <h3 class="f-list-6" id="h-footer-about-us"><a href="/about-us">About us<svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg></a></h3>
+
+          <ul class="g-footer__link-list" aria-labelledby="h-footer-about-us">
+            <li><a href="/about-us/mission-and-history">Mission and History</a></li>
+            <li><a href="/about-us/leadership">Leadership</a></li>
+            <li><a href="/about-us/financial-reporting">Financial Reporting</a></li>
+                        <li><a href="/about-us/departments">Departments</a></li>
+
+          </ul>
+        </div>
+
+        <div class="g-footer__grid__group">
+          <h3 class="f-list-6" id="h-footer-support-us"><a href="/support-us">Support us</a></h3>
+
+          <ul class="g-footer__link-list" aria-labelledby="h-footer-support-us">
+            <li><a href="/support-us/membership">Membership</a></li>
+            <li><a href="/support-us/ways-to-give">Ways to Give</a></li>
+            <li><a href="/support-us/ways-to-give/corporate-sponsorship">Corporate Sponsorship</a></li>
+             <li><a href="/support-us/art-interest-groups">Art Interest Groups</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div class="g-footer__grid__group u-hide@small-">
+          <h3 class="f-list-6" id="h-footer-learn-with-us"><a href="/learn-with-us">Learn with us<svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg></a></h3>
+
+          <ul class="g-footer__link-list" aria-labelledby="h-footer-learn-with-us">
+            <li><a href="/learn-with-us/families">Families</a></li>
+            <li><a href="/learn-with-us/teens">Teens</a></li>
+            <li><a href="/learn-with-us/educators">Educators</a></li>
+            <li><a href="/learn-with-us/adults">Adults</a></li>
+          </ul>
+        </div>
+
+        <div class="g-footer__grid__group">
+          <h3 class="f-list-6" id="h-footer-follow-us">Follow us</h3>
+
+          <ul class="g-footer__link-list" aria-labelledby="h-footer-follow-us">
+            <li><a href="https://www.facebook.com/artic" data-gtm-event="facebook" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="follow" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/artinstitutechi" data-gtm-event="twitter" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="follow" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/artinstitutechi/" data-gtm-event="instagram" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="follow" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/ArtInstituteChicago" data-gtm-event="youtube" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event-category="follow" target="_blank">YouTube</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <h2 class="sr-only" id="h-mobile-footer-links">Footer Links</h2>
+  <ul class="g-footer__legals f-secondary" aria-labelledby="h-mobile-footer-links">
+    <li><a href="/press">Press</a></li>
+    <li><a href="/employment">Careers</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/venue-rental">Venue Rental</a></li>
+    <li><a href="/image-licensing">Image Licensing</a></li>
+    <li><a href="https://www.saic.edu">SAIC</a></li>
+    <li><a href="/terms">Terms</a></li>
+  </ul>
+</footer>
+<a class="top-link" href="#a17" aria-label="top of page">
+  <svg class="icon--arrow" aria-hidden="true">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon--arrow" />
+  </svg>
+</a>
+
+  </div>
+
+<div id="mask" class="g-mask" data-behavior="mask"></div>
+<div class="m-calendar" id="calendar" data-behavior="calendar">
+    <div class="m-calendar__header">
+        <button class="btn btn--sm btn--secondary f-buttons s-active" data-calendar-start>From</button>
+        <button class="btn btn--sm btn--secondary f-buttons" data-calendar-end>To</button>
+        <button class="m-calendar__close" data-calendar-close><svg class="icon--close" aria-label="Close date select"><use xlink:href="#icon--close" /></svg></button>
+    </div>
+    <div class="m-calendar__months" data-calendar-months>
+        <div class="m-calendar__month" style="display: none;" data-calendar-month-template>
+            <b class="m-calendar__title f-caption" data-calendar-title></b>
+            <table data-calendar-table>
+                <thead class="f-caption">
+                  <tr>
+                    <th title="Sunday">S</th>
+                    <th title="Monday">M</th>
+                    <th title="Tuesday">T</th>
+                    <th title="Wednesday">W</th>
+                    <th title="Thursday">T</th>
+                    <th title="Friday">F</th>
+                    <th title="Saturday">S</th>
+                  </tr>
+                </thead>
+                <tbody class="f-secondary">
+                </tbody>
+            </table>
+        </div>
+        <button class="m-calendar__next" data-calendar-next><svg aria-label="Next month" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg></button>
+        <button class="m-calendar__prev" data-calendar-prev><svg aria-label="Previous month" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg></button>
+    </div>
+    <div class="m-calendar__footer">
+        <button class="btn btn--sm f-buttons" data-calendar-done>Done</button>
+        <button class="btn btn--sm btn--secondary f-buttons" data-calendar-reset>Reset</button>
+    </div>
+</div>
+<div class="o-fullscreen-image" id="fullscreenImage" data-behavior="imageZoomArea">
+    <a class="o-fullscreen-image__info">Learn more</a>
+    <img class="o-fullscreen-image__img" alt="">
+    <div class="o-fullscreen-image__osd" id="openseadragon"></div>
+    <h2 class="sr-only" id="h-img_action">Image actions</h2>
+    <ul class="o-fullscreen-image__img-actions" aria-labelledby="h-img_action">
+      <li>
+        <button class="btn  btn--septenary btn--icon-sq" id="osd_zoomInButton" data-fullscreen-zoom-in aria-label="Zoom in">
+    <svg class="icon--zoom-in--24" aria-hidden="true"><use xlink:href="#icon--zoom-in--24" /></svg>    
+</button>
+      </li>
+      <li>
+        <button class="btn  btn--septenary btn--icon-sq" id="osd_zoomOutButton" data-fullscreen-zoom-out aria-label="Zoom out">
+    <svg class="icon--zoom-out--24" aria-hidden="true"><use xlink:href="#icon--zoom-out--24" /></svg>    
+</button>
+      </li>
+      <li>
+        <button class="btn  btn--septenary btn--icon-sq" data-behavior="sharePage" data-fullscreen-share aria-label="Share page">
+    <svg class="icon--share--24" aria-hidden="true"><use xlink:href="#icon--share--24" /></svg>    
+</button>
+      </li>
+    </ul>
+    <button class="btn  btn--octonary btn--icon btn--icon-circle-48 o-fullscreen-image__close" data-fullscreen-close aria-label="Close full screen image viewer">
+    <svg class="icon--close--24" aria-hidden="true"><use xlink:href="#icon--close--24" /></svg>    
+</button>
+</div>
+<div class="m-share-menu" id="shareMenu" data-behavior="shareMenu">
+  <h4 class="m-share-menu__title f-module-title-2" id="h-share-menu">Share</h4>
+  <ul aria-labelledby="h-share-menu">
+    <li><a href="#" class="f-secondary" data-shareMenu="facebook" data-gtm-event-category="share" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="facebook" aria-label="Share via Facebook">Facebook</a></li>
+    <li><a href="#" class="f-secondary" data-shareMenu="twitter" data-gtm-event-category="share" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="twitter" aria-label="Share via Twitter">Twitter</a></li>
+    <li><a href="#" class="f-secondary" data-shareMenu="pinterest" data-gtm-event-category="share" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" data-gtm-event="pinterest" aria-label="Share via Pinterest">Pinterest</a></li>
+    <li><a href="#" class="f-secondary" data-shareMenu="email" aria-label="Share via Email">Email</a></li>
+    <li><button class="f-secondary" data-shareMenu="copy" aria-label="Copy link to page">Copy link</button></li>
+  </ul>
+  <button class="m-share-menu__close" aria-label="Close share menu"><svg class="icon--close" aria-hidden="true"><use xlink:href="#icon--close" /></svg></button>
+</div>
+<div class="g-nav-mobile" data-behavior="navMobile" tabindex="0">
+  <div class="g-nav-mobile__inner">
+    <div class="g-nav-mobile__container">
+      <div class="g-header">
+        <div class="g-header__inner">
+            <a class="g-header__logo" href="/">
+              <svg aria-label="Art Institute of Chicago">
+                <use xlink:href="#icon--logo--80" />
+                <use xlink:href="#icon--logo--88" />
+                <use xlink:href="#icon--logo--92" />
+              </svg>
+            </a>
+            <nav class="g-header__nav-primary">
+              <h2 class="sr-only" id="h-nav-secondary">Secondary Navigation</h2>
+              <ul class="f-secondary" aria-labelledby="h-nav-secondary">
+                <li class='u-hide@small+'><a href="https://sales.artic.edu/admissions">Buy Tickets</a></li>
+                <li><a href="https://www.artic.edu/visit">Visit</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      <div class="g-nav-mobile__search" data-behavior="mobileSearch">
+        <form action="/search" role="search">
+          <input type="search" id="mobile_search" name="q" placeholder="Search" autocomplete="off" aria-label="Search the site" />
+          <button type="submit" aria-label="Search">
+            <svg aria-hidden="true" class="icon--search--24"><use xlink:href="#icon--search--24" /></svg>
+          </button>
+        </form>
+      </div>
+
+      <nav class="g-nav-mobile__nav-wrapper">
+        <h2 class="sr-only" id="h-nav-mobile">Primary Navigation</h2>
+        <ul class="g-nav-mobile__nav" aria-labelledby="h-nav-mobile">
+          
+                      <li class="">
+              <a href="https://www.artic.edu/visit" >
+                Visit
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="#" data-nav-trigger>
+                Exhibition &amp; Events
+
+                                  <svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg>
+                              </a>
+
+              
+                              <div class="g-nav-mobile__subnav">
+                  <a href="#" class="g-nav-mobile__back arrow-link arrow-link--back" data-nav-back>
+                    <svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg>
+
+                    <h3 id="h-nav-mobile-sub-exhibition-amp-events">Exhibition &amp; Events</h3>
+                  </a>
+
+                  <ul aria-labelledby="h-nav-mobile-sub-exhibition-amp-events">
+                                          <li class="">
+                        <a href="https://www.artic.edu/exhibitions" >
+                          Exhibitions
+
+                                                  </a>
+
+                        
+                                              </li>
+                                          <li class="">
+                        <a href="https://www.artic.edu/events" >
+                          Events
+
+                                                  </a>
+
+                        
+                                              </li>
+                                      </ul>
+                </div>
+                          </li>
+                      <li class="">
+              <a href="https://www.artic.edu/collection" data-nav-trigger>
+                The Collection
+
+                                  <svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg>
+                              </a>
+
+              
+                              <div class="g-nav-mobile__subnav">
+                  <a href="#" class="g-nav-mobile__back arrow-link arrow-link--back" data-nav-back>
+                    <svg aria-hidden="true" class="icon--arrow"><use xlink:href="#icon--arrow" /></svg>
+
+                    <h3 id="h-nav-mobile-sub-the-collection">The Collection</h3>
+                  </a>
+
+                  <ul aria-labelledby="h-nav-mobile-sub-the-collection">
+                                          <li class="">
+                        <a href="https://www.artic.edu/collection" >
+                          Artworks
+
+                                                  </a>
+
+                        
+                                              </li>
+                                          <li class="">
+                        <a href="https://www.artic.edu/articles_publications" >
+                          Writings
+
+                                                  </a>
+
+                        
+                                              </li>
+                                          <li class="">
+                        <a href="https://www.artic.edu/collection/research_resources" >
+                          Resources
+
+                                                  </a>
+
+                        
+                                              </li>
+                                      </ul>
+                </div>
+                          </li>
+                      <li class="">
+              <a href="https://sales.artic.edu/admissions" >
+                Buy Tickets
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="https://sales.artic.edu/memberships" >
+                Become A Member
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="https://shop.artic.edu/" >
+                Shop
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="https://www.artic.edu/about-us" >
+                About Us
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="learn-with-us" >
+                Learn With Us
+
+                              </a>
+
+              
+                          </li>
+                      <li class="">
+              <a href="support-us" >
+                Support Us
+
+                              </a>
+
+              
+                          </li>
+                  </ul>
+
+        <div class="g-nav-mobile__nav-secondary">
+          <h4 class="sr-only" id="h-footer-nav-secondary">Secondary Navigation</h4>
+          <ul class="g-nav-mobile__legals" aria-labelledby="h-footer-nav-secondary">
+            <li><a href="/press">Press</a></li>
+            <li><a href="/employment">Careers</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/venue-rental">Venue Rental</a></li>
+            <li><a href="/image-licensing">Image Licensing</a></li>
+            <li><a href="https://www.saic.edu">SAIC</a></li>
+            <li><a href="/terms">Terms</a></li>
+          </ul>
+
+          <h4 class="sr-only" id="h-footer-nav-social">Social links</h4>
+          <ul class="g-nav-mobile__social" aria-labelledby="h-footer-nav-social">
+            <li><a href="https://www.facebook.com/artic">Facebook</a></li>
+            <li><a href="https://twitter.com/artinstitutechi">Twitter</a></li>
+            <li><a href="https://www.instagram.com/artinstitutechi/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/ArtInstituteChicago">YouTube</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <button class="g-nav-mobile__close" data-behavior="closeNavMobile" aria-label="Close menu"><svg aria-hidden="true" class="icon--close--24"><use xlink:href="#icon--close--24" /></svg></button>
+    </div>
+  </div>
+</div>
+<div class="g-search" data-behavior="globalSearch" data-autocomplete-url="https://www.artic.edu/search/autocomplete" aria-modal="true" data-gtm-event-category="site search" data-gtm-event-action="A Sunday on La Grande Jatte — 1884" aria-label="Search">
+    <div class="g-search__scroll">
+        <div class="g-search__inner" data-search-inner>
+            <form action="/search" class="g-search__form" role="search">
+                <input type="search" id="q" name="q" class="g-search__input" placeholder="Search" autocomplete="off" aria-label="Search the site" />
+                <button type="submit" class="g-search__submit">
+                    <svg aria-hidden="true" class="icon--search--24"><use xlink:href="#icon--search--24" /></svg>
+                </button>
+                <span class="g-search__loader"></span>
+            </form>
+            <div class="g-search__suggested">
+                <h2 class="g-search__suggested-title" id="h-suggested-terms">Suggested Terms</h2>
+                <ul aria-labelledby="h-suggested-terms">
+                                                                        <li><a href="/visit#admission">Admissions</a></li>
+                                                    <li><a href="/visit#hours">Hours</a></li>
+                                                    <li><a href="/visit#directions">Directions</a></li>
+                                                    <li><a href="https://www.artic.edu/visit/explore-on-your-own/museum-floor-plan">Museum Map</a></li>
+                                                    <li><a href="/support-us/membership">Membership</a></li>
+                                                    <li><a href="/visit/frequently-asked-questions">FAQs</a></li>
+                                                    <li><a href="https://www.artic.edu/exhibitions/2937/andy-warhol-from-a-to-b-and-back-again">Andy Warhol</a></li>
+                                                    <li><a href="/selections/what-to-see-in-an-hour">What to See in an Hour</a></li>
+                                                    <li><a href="https://www.artic.edu/articles">Blog</a></li>
+                                                            </ul>
+            </div>
+            <button class="g-search__close" data-behavior="globalSearchClose" aria-label="Close search">
+                <svg aria-hidden="true" class="icon--close--24"><use xlink:href="#icon--close--24" /></svg>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="modal" class="g-modal">
+    <div class="g-modal__content" data-modal-content>
+    </div>
+    <button class="g-modal__close" data-behavior="closeModal">
+        <svg aria-hidden="true" class="icon--close"><use xlink:href="#icon--close" /></svg>
+    </button>
+</div>
+<span class="g-ajax-loader">
+  <svg class="g-ajax-loader__svg" viewBox="25 25 50 50">
+    <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+  </svg>
+</span>
+
+
+<script src="https://vjs.zencdn.net/7.1.0/video.min.js"></script>
+<script src="/dist/scripts/app-2602c25d85.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@2.3/build/openseadragon/openseadragon.min.js" defer></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"64338d1b8c","applicationID":"62463744","transactionName":"YQFWZ0JWDUQCBRALX1hLdVBEXgxZTAcWFkdZFl9AHkQLWBQ=","queueTime":0,"applicationTime":977,"atts":"TUZVEQpMHko=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
